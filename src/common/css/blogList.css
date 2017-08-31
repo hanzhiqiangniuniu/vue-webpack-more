@@ -1,0 +1,263 @@
+
+.box{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  box-shadow: 0 39px 73px rgba(0,0,0,.26);
+  overflow: hidden;
+  margin-bottom: 26px;
+  border-radius: 8px;
+}
+.box .boxInner{
+  position: absolute;
+  width: 4200px;
+  height: 100%;
+  left:0;
+  top:0;
+}
+.box .boxInner .swiper-slide{
+  float: left;
+  width: 1050px;
+  position: relative;
+  height: initial;
+  cursor: pointer;
+}
+.box .boxInner .swiper-slide img{
+  width: 100%;
+}
+.box .boxInner .swiper-slide .posiMask{
+  position: absolute;
+  left: 0;
+  top: 272px;
+  width: 1002px;
+  height: 128px;
+  padding: 20px 0 0 48px;
+  background: url("../img/banner-mask.png")no-repeat;
+}
+.boxInner .swiper-slide .posiMask h4,.making{
+  width: 557px;
+  /*overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;*/
+  color: #fff;
+}
+.boxInner .swiper-slide .posiMask h4{
+  font-size: 24px;
+  line-height: 28px;
+}
+.boxInner .swiper-slide .posiMask .making{
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.boxInner .swiper-slide .posiMask .person{
+  position: absolute;
+  top:47px;
+  right: 65px;
+  font-size: 0;
+}
+.boxInner .swiper-slide .posiMask .person .peoIcon{
+  display: inline-block;
+  width:48px ;
+  height: 48px;
+  background: url("../img/person.png")no-repeat;
+  vertical-align: middle;
+}
+.boxInner .swiper-slide .posiMask .person .nameDate{
+  display: inline-block;
+  margin-left: 2px;
+  vertical-align: middle;
+}
+.swiper-slide .posiMask .person .nameDate .peoName{
+  margin-bottom: 3px;
+}
+.swiper-slide .posiMask .person .nameDate .peoName,.peoDate{
+  display: block;
+  font-size: 12px;
+  color: #fff;
+}
+.pageBox{
+  width: 100%;
+  display: flex;
+}
+.bannerPage{
+  margin:auto;
+}
+.bannerPage .page{
+  width: 60px;
+  height:40px;
+  margin-left: 10px;
+  float: left;
+  cursor: pointer;
+  opacity: .5;
+  overflow: hidden;
+  transition: .5s all;
+}
+.bannerPage li:first-child{
+  margin-left: 0;
+}
+.bannerPage .page img{
+  display: block;
+  width: 100%;
+  transition: transform .5s;
+}
+.bannerPage .bg{
+  width: 80px;
+  opacity: 1;
+}
+.bannerPage .bg img{
+  transform: scale(1.2);
+}
+
+
+.blogcontent {
+  margin: 30px 0;
+}
+
+.blogcontent .blog-tab {
+  width: 780px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.blogcontent .blog-tab .blog-list {
+  padding: 10px 0;
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.blogcontent .blog-tab .blog-list .listL {
+  float: left;
+  width: 420px;
+  margin-top: 25px;
+}
+
+.blogcontent .blog-tab .blog-list .listL h5, .listField {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.blogcontent .blog-tab .blog-list .listL .title {
+  font-size: 18px;
+  color: #3183e7;
+  line-height: 29px;
+  cursor: pointer;
+}
+
+.blogcontent .blog-tab .blog-list .listL .title:hover {
+  text-decoration: underline;
+}
+
+.blogcontent .blog-tab .blog-list .listL .listField {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #9c9c9c;
+  line-height: 20px;
+}
+.blogcontent .blog-tab .blog-list .listImg{
+  float: right;
+  width: 225px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.blogcontent .blog-tab .blog-list img {
+  width: 100%;
+}
+.blogcontent .blogLeft{
+  float: left;
+}
+.blogcontent .more{
+  margin: 20px auto;
+  text-align: center;
+}
+.blogcontent .more a{
+  font-size: 16px;
+  color: #007aff;
+  font-weight: 400;
+  display: inline-block;
+}
+.blogcontent .loading{
+  margin: 20px auto;
+  background: url("../img/load.gif")no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: 100% 100%;
+}
+
+.blogcontent .conR {
+  float: right;
+}
+
+/*.blogcontent .conR .sing {
+  margin-bottom: 14px;
+  width: 204px;
+  height: 246px;
+  padding: 0 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 8px;
+}
+
+.blogcontent .conR .sing .singTitle {
+  margin: 30px 0 26px 0;
+  font-size: 16px;
+  color: #0ed666;
+  line-height: 22px;
+  text-align: center;
+}
+
+.blogcontent .conR .sing .eI {
+  width: 182px;
+  height: 32px;
+  font-size: 14px;
+  padding: 0 10px;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid #dcdcdc;
+  text-align: center;
+}
+
+.blogcontent .conR .sing .btnBox {
+  width: 100%;
+  height: 72px;
+  padding: 36px 0 0 0;
+  margin-top: 2px;
+  background: url("../img/Emailbanner.png") no-repeat;
+}
+
+.blogcontent .conR .sing .btnBox .btnText {
+  display: block;
+  width: 204px;
+  height: 40px;
+  line-height: 40px;
+  background: #0ed666;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 40px;
+  cursor: pointer;
+}*/
+
+.blogcontent .conR .ad {
+  width: 248px;
+  border-radius: 8px;
+  border: 2px solid #f2f2f2;
+}
+.blogcontent .conR .ad img{
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+.cl{
+  width: 204px;
+  height: 264px;
+  padding: 0 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+
